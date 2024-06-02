@@ -1,0 +1,41 @@
+
+.header img {
+    width: 3rem;
+    height:3rem;
+    
+}
+
+.link {
+    text-decoration: none;
+    
+    color: white!important;
+    
+  }
+  
+.link:hover,
+.link:active {
+    color: linear-gradient(90deg, #ff8a05, #f9b331)!important;
+   
+    text-shadow: 0 0 18px rgba(248, 190, 42, 0.8)!important;
+  }
+.active {
+    color: #ff8a05!important;
+    
+  }
+  .navLink {
+    color: rgb(13, 202, 240)!important;
+  }
+  .navBrand {
+    color: rgb(255,193,7)!important;
+  }
+  #main-header-dropdown-1 {
+    color: white;
+  }
+  #main-header-dropdown-1:focus, #main-header-dropdown-1-focus {
+    color: #ff8a05!important;
+  }
+  #main-header-dropdown-2 {
+    color: rgb(13, 202, 240)!important;
+    
+  }
+  

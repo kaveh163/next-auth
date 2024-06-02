@@ -1,0 +1,30 @@
+.bgGrayColor {
+    background-color: #f5f5f5;
+}
+.borderRadius {
+    border-radius: 4px;
+}
+.text-warning {
+    color: #8a6d3b;
+}
+.titleColor {
+    color: #134888;
+}
+.col-border {
+    border-left: 1px dashed gray;
+}
+
+.inp:focus{
+    border: 1px solid red!important;
+    
+}
+.inp:not(:focus) {
+  border: 1px solid #c4c8cb!important;
+}
+
+@media screen and (max-width: 576px) {
+    .col-border {
+      border-left: none;
+      border-bottom: 1px dashed gray;
+    }
+}

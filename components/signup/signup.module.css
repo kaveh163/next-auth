@@ -1,0 +1,16 @@
+.bg-header-color {
+    background-color: #084298;
+}
+.form-border {
+    border-left: 2px dashed black; 
+}
+
+
+.bg-text-color{
+    background-color: #cfe2ff;
+}
+@media only screen and (max-width: 600px) {
+    .form-border {
+        border: none;
+    }
+}

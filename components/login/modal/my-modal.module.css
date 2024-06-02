@@ -1,0 +1,27 @@
+
+.closeCursor {
+    cursor: pointer;
+}
+/* .mdl {
+    width: 800px!important;
+    max-width: none!important;
+    margin: 0 auto;
+} */
+.inp:focus{
+    border: 1px solid red!important;
+    
+}
+.inp:not(:focus) {
+  border: 1px solid #c4c8cb!important;
+}
+/* .mobile:focus {
+    border: 1px solid red!important;
+}
+.mobile:not(:focus) {
+  border: 1px solid #c4c8cb!important;
+} */
+#loginMdl {
+  
+  max-width: 600px!important;
+  margin: 0 auto;
+}
